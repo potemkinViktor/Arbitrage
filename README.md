@@ -18,11 +18,11 @@ and using PancakePair contract
 ```
 
 ## ***How we can get prices of tokens from pancakeswap***
-1. 
+1. In this function we can get address of pair in PancakeFactory
 ```solidity
     function getPair(address _token0, address _token1) public view returns (address pairAddress)
 ```
-   In this function we can get address of pair in PancakeFactory
+    `returns` address of pair in pancakeswap
 
 
 2. Searching for price of _token0 in pair
