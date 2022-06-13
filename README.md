@@ -29,7 +29,7 @@ and using PancakePair contract
 ```solidity
    function getRatio(address _token0, address _token1) public view returns (uint)
 ```
-   `returns` price of `_token0` in wei
+    `returns` price of `_token0` in wei
 
 3. Getting price of second token in pair (in this case USDT)
 ```solidity
